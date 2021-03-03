@@ -50,3 +50,18 @@ button,
   font-weight: 400;
   cursor: pointer;
 }
+
+//Visibility
+.hide-for-mobile {
+  //hide for tablets and mobile
+  @include breakpoint-down("medium") {
+    display: none;
+  }
+}
+
+.hide-for-desktop {
+  //hide for desktop view widths
+  @include breakpoint-up(large) {
+    display: none;
+  }
+}
