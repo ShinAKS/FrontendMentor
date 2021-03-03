@@ -54,7 +54,7 @@ button,
 //Visibility
 .hide-for-mobile {
   //hide for tablets and mobile
-  @include breakpoint-down("medium") {
+  @include breakpoint-down(medium) {
     display: none;
   }
 }
